@@ -1,24 +1,26 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-}
-h1{
-    padding: 50px; ;
-}
-img {
+  }
+  h1 {
+    padding: 50px;
+  }
+  img {
     border-radius: 50%;
-     width: 40px;
-    
-}
-.fundo{
-    background-image: linear-gradient(45deg, rgb(180, 240, 180), green);
+    width: 40px;
+  }
+  
+  .fundo {
+    background-image: url("https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/etiquetaseadesivosdecor/media/uploads/produtos/foto/kgcaaszn/costela-de-adao-colorida-preview-100-quadrada.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-}
-
-.calculadora{
+  }
+  
+  .calculadora {
     background-color: rgb(42, 92, 42);
     position: absolute;
     top: 50%;
@@ -26,31 +28,39 @@ img {
     transform: translate(-50%, -50%);
     border-radius: 3%;
     padding: 15px;
-}
-.btn{
-   width: 50px;
-   height: 50px;
-   font-size: 25px;
-   background-color: rgb(67, 143, 96);
-   border: none;
-   color: #fff;
-   cursor: pointer;
-   margin: 3px;
-   border-radius: 10%;
-      
-}
-.btn:hover{
-    background-color: rgb(78, 214, 146);
-}
-
-#resultado{
+    opacity: .9;
+  }
+  
+  
+  .btn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(67, 143, 96);
+    border: solid 1px rgb(67, 143, 96) ;
+    color: #fff;
+    cursor: pointer;
+    margin: 3px;
+    border-radius: 50px;
+    text-align: center;
+    opacity: 1;
+  }
+  .btn:hover {
+    background-color: transparent;
+    transition: all 0.3s;
+    color: #cacaca;
+      border: solid 1px #cacaca ;
+  
+  }
+  
+  #resultado {
     background-color: white;
     width: 212px;
-    height:30px ;
+    height: 30px;
     margin: 5px;
     font-size: 25px;
     color: rgb(20, 80, 8);
     text-align: right;
     padding: 5px;
     border-radius: 2%;
-}
+  }
